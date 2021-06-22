@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  line-height: 0.8;
+  width: 80%;
+  margin: auto;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  color: rgb(92, 30, 89);
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+}
+
+header p {
+  font-size: 1.5rem;
+  padding-top: 2.5rem;
+  width: 90%;
+  margin: auto;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+}
+
+.ratings-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 3rem;
+  width: 90%;
+  margin: auto;
+}
+
+.rating-card {
+  padding: 1.5rem;
+  margin: 2rem 0rem;
+  background: rgb(245, 239, 247);
+  border-radius: 1rem;
+}
+
+.rating-card img {
+  margin: 0rem 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.rating-card h2 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  color: rgb(92, 30, 89);
+}
+
+.reviews-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.review-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  background: rgb(87, 3, 76);
+  margin: 1.5rem 0rem;
+  border-radius: 1rem;
+  padding: 4rem 3rem;
+  color: white;
+  font-family: "Spartan", sans-serif;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+}
+
+.review-card img {
+  border-radius: 100%;
+  max-width: 30%;
+}
+
+.review-card h4 {
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.review-card span {
+  color: rgb(197, 61, 190);
+  font-weight: 400;
+}
+
+.review-card p {
+  padding-top: 2rem;
+  line-height: 1.8;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.review-3 {
+  margin-bottom: 5rem;
+}
